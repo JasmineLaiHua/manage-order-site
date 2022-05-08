@@ -31,7 +31,7 @@ export default function Admin({ children, ...rest }) {
   // states and functions
   const [image, setImage] = React.useState(bgImage);
   const [color, setColor] = React.useState("white");
-  const [fixedClasses, setFixedClasses] = React.useState("dropdown show");
+  const [fixedClasses, setFixedClasses] = React.useState("dropdown");
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const handleImageClick = (image) => {
     setImage(image);
@@ -40,11 +40,11 @@ export default function Admin({ children, ...rest }) {
     setColor(color);
   };
   const handleFixedClick = () => {
-    if (fixedClasses === "dropdown") {
-      setFixedClasses("dropdown show");
-    } else {
-      setFixedClasses("dropdown");
-    }
+    // if (fixedClasses === "dropdown") {
+    //   setFixedClasses("dropdown show");
+    // } else {
+    //   setFixedClasses("dropdown");
+    // }
   };
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -79,7 +79,7 @@ export default function Admin({ children, ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"LUXY ORDER"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
@@ -101,7 +101,7 @@ export default function Admin({ children, ...rest }) {
         ) : (
           <div className={classes.map}>{children}</div>
         )}
-        {getRoute() ? <Footer /> : null}
+        {getRoute() ? null : null}
         <FixedPlugin
           handleImageClick={handleImageClick}
           handleColorClick={handleColorClick}

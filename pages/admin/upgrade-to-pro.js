@@ -9,8 +9,8 @@ import Admin from "layouts/Admin.js";
 // core components
 import GridItem from "components/Grid/GridItem.js";
 import GridContainer from "components/Grid/GridContainer.js";
-import Danger from "components/Typography/Danger.js";
-import Success from "components/Typography/Success.js";
+import Danger from "components/Warehouse/Danger.js";
+import Success from "components/Warehouse/Success.js";
 import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";

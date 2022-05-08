@@ -3,19 +3,19 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // core components
-import styles from "assets/jss/nextjs-material-dashboard/components/typographyStyle.js";
+import styles from "assets/jss/nextjs-material-dashboard/components/warehouseStyle.js";
 
-export default function Primary(props) {
+export default function Info(props) {
   const useStyles = makeStyles(styles);
   const classes = useStyles();
   const { children } = props;
   return (
-    <div className={classes.defaultFontStyle + " " + classes.primaryText}>
+    <div className={classes.defaultFontStyle + " " + classes.infoText}>
       {children}
     </div>
   );
 }
 
-Primary.propTypes = {
+Info.propTypes = {
   children: PropTypes.node,
 };

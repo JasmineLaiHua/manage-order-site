@@ -35,24 +35,24 @@ const dashboardRoutes = [
     layout: "/admin",
   },
   {
-    path: "/user-profile",
-    name: "User Profile",
+    path: "/customer",
+    name: "Customer",
     rtlName: "ملف تعريفي للمستخدم",
     icon: Person,
 
     layout: "/admin",
   },
   {
-    path: "/table-list",
-    name: "Table List",
+    path: "/orders",
+    name: "Orders",
     rtlName: "قائمة الجدول",
     icon: "content_paste",
 
     layout: "/admin",
   },
   {
-    path: "/typography",
-    name: "Typography",
+    path: "/warehouse",
+    name: "Warehouse",
     rtlName: "طباعة",
     icon: LibraryBooks,
 
@@ -90,14 +90,14 @@ const dashboardRoutes = [
 
     layout: "/rtl",
   },
-  {
-    path: "/upgrade-to-pro",
-    name: "Upgrade To PRO",
-    rtlName: "التطور للاحترافية",
-    icon: Unarchive,
+  // {
+  //   path: "/upgrade-to-pro",
+  //   name: "Upgrade To PRO",
+  //   rtlName: "التطور للاحترافية",
+  //   icon: Unarchive,
 
-    layout: "/admin",
-  },
+  //   layout: "/admin",
+  // },
 ];
 
 export default dashboardRoutes;

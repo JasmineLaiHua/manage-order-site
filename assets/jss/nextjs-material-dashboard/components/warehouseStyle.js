@@ -8,7 +8,7 @@ import {
   grayColor,
 } from "assets/jss/nextjs-material-dashboard.js";
 
-const typographyStyle = {
+const warehouseStyle = {
   defaultFontStyle: {
     ...defaultFont,
     fontSize: "14px",
@@ -53,4 +53,4 @@ const typographyStyle = {
   },
 };
 
-export default typographyStyle;
+export default warehouseStyle;

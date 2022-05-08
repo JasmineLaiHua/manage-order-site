@@ -59,8 +59,8 @@ It is open source, and it's Github Repo can be found [here](https://github.com/c
 ## Demo
 
 - [Start page](https://demos.creative-tim.com/nextjs-material-dashboard/admin/dashboard)
-- [User profile page](https://demos.creative-tim.com/nextjs-material-dashboard/admin/user-profile)
-- [Tables page ](https://demos.creative-tim.com/nextjs-material-dashboard-pro/admin/table-list)
+- [User profile page](https://demos.creative-tim.com/nextjs-material-dashboard/admin/customer)
+- [Tables page ](https://demos.creative-tim.com/nextjs-material-dashboard-pro/admin/orders)
 - [Maps Page](https://demos.creative-tim.com/nextjs-material-dashboard-pro/admin/maps)
 - [Notifications page](https://demos.creative-tim.com/nextjs-material-dashboard-pro/admin/notifications)
 
@@ -122,7 +122,7 @@ nextjs-material-dashboard
 │       │   │   ├── snackbarContentStyle.js
 │       │   │   ├── tableStyle.js
 │       │   │   ├── tasksStyle.js
-│       │   │   └── typographyStyle.js
+│       │   │   └── warehouseStyle.js
 │       │   ├── dropdownStyle.js
 │       │   ├── layouts
 │       │   │   ├── adminStyle.js
@@ -169,7 +169,7 @@ nextjs-material-dashboard
 │   │   └── Table.js
 │   ├── Tasks
 │   │   └── Tasks.js
-│   └── Typography
+│   └── Warehouse
 │       ├── Danger.js
 │       ├── Info.js
 │       ├── Muted.js
@@ -203,10 +203,10 @@ nextjs-material-dashboard
 │   │   ├── icons.js
 │   │   ├── maps.js
 │   │   ├── notifications.js
-│   │   ├── table-list.js
-│   │   ├── typography.js
+│   │   ├── orders.js
+│   │   ├── Warehouse.js
 │   │   ├── upgrade-to-pro.js
-│   │   └── user-profile.js
+│   │   └── customer.js
 │   ├── index.js
 │   └── rtl
 │       └── rtl-page.js
